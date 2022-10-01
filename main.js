@@ -1,6 +1,3 @@
-import loader from './images/loader.svg';
-import diceIcon from './images/icon-dice.svg';
-
 const adviceId = document.querySelector('#advice-id');
 const adviceBody = document.querySelector('.card-body');
 const randomizeBtn = document.querySelector('.randomize-advice');
@@ -9,8 +6,9 @@ const btnIcon = document.querySelector('#btn-icon');
 const API_URL = 'https://api.adviceslip.com/advice';
 
 async function getAdvice() {
+  const diceIcon = btnIcon.src;
   try {
-    btnIcon.src = loader;
+    btnIcon.src = 'images/loader.svg';
     const res = await fetch(API_URL, { cache: 'no-cache' });
     if (!res.ok) throw new Error(res.status);
     const data = await res.json();

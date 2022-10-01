@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/advice-generator-app-9JMc6PwelF)
-- Live Site URL: [Add live site URL here](https://flxemt.github.io/advice-generator/)
+- Solution URL: [https://www.frontendmentor.io/solutions/advice-generator-app-9JMc6PwelF](https://www.frontendmentor.io/solutions/advice-generator-app-9JMc6PwelF)
+- Live Site URL: [https://flxemt.github.io/advice-generator/](https://flxemt.github.io/advice-generator/)
 
 ## Author
 

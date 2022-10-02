@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Advice Generator App - Frotend Mentor">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +18,10 @@
         <div class="advice-heading">Advice generator</div>
         <p class="advice-body">Click the button to generate some advice</p>
       </div>
-      <img src="images/pattern-divider-desktop.svg" class="desktop-divider" alt="pattern divider">
-      <img src="images/pattern-divider-mobile.svg" class="mobile-divider" alt="pattern divider">
+      <picture>
+        <source media="(min-width: 650px)" srcset="images/pattern-divider-desktop.svg">
+        <img src="images/pattern-divider-mobile.svg" alt="Divider">
+      </picture>
       <button class="randomize-advice">
         <img src="images/icon-dice.svg" id="icon-dice" alt="Randomize advice" style="display: block">
         <img src="images/loader.svg" id="icon-loader" alt="Loading..." style="display: none">

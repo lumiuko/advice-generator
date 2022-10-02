@@ -58,10 +58,6 @@ img {
   font-size: 1.75rem;
 }
 
-.desktop-divider {
-  display: none;
-}
-
 .randomize-advice {
   background-color: var(--color-neon-green);
   border: none;
@@ -86,17 +82,15 @@ img {
   color: var(--color-neon-green);
 }
 
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.01ms !important;
+  }
+}
+
 @media (min-width: 650px) {
   .card {
     min-width: 540px;
-  }
-
-  .desktop-divider {
-    display: block;
-  }
-
-  .mobile-divider {
-    display: none;
   }
 }
 

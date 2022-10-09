@@ -88,12 +88,6 @@ img {
   }
 }
 
-@media (min-width: 650px) {
-  .card {
-    min-width: 540px;
-  }
-}
-
 @media (max-width: 650px) {
   .card {
     padding: 2.5rem 2.5rem 1.5rem;

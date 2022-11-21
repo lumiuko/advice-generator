@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/advice-generator-app-9JMc6PwelF](https://www.frontendmentor.io/solutions/advice-generator-app-9JMc6PwelF)
-- Live Site URL: [https://flxemt.github.io/advice-generator/](https://flxemt.github.io/advice-generator/)
+- Live Site URL: [https://advice-generator-flxemt.netlify.app](https://advice-generator-flxemt.netlify.app)
 
 ## Author
 
